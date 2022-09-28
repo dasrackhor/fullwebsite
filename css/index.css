@@ -1,0 +1,136 @@
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-transform: capitalize;
+  
+}
+#wrapper {
+  max-width: 940px;
+   margin: 0 auto 0 auto ;
+   padding: 0 5% 0 5%;;
+   
+ 
+
+}
+nav ul li{
+    padding: 0;
+    margin: 0 70px 10px 0;
+    display: inline-block;
+}
+.Logo{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* fonts for logo */
+}
+/* 1em equal 16px and em is responsive */
+.Logo h1{
+    font-size: 1em;
+}
+.Logo h2{
+    font-size: 2em;
+}
+/* links color */
+.Logo a {
+    color: greenyellow;
+}
+
+a{ 
+    color:red;
+}
+a :visited{
+    color: pink;
+}
+header a{
+    text-decoration: none;
+}
+/* navigation fonts */
+.NavigationLink{
+    font-size:18px;
+    text-align: center;
+}
+/* hover navigation */
+nav a:hover{ color:blue;
+font-weight: bold;
+}
+/* footer */
+footer{
+    margin-top: 50px;
+    font-size: 1.25em;
+    color: orange;
+    text-align: center;
+    clear: both;
+    
+}
+footer p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* portfolio */
+img{
+    max-width: 100%;
+}
+#portfolio{
+    list-style: none;
+}
+#portfolio li{
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
+   
+}
+footer a{
+    text-decoration: none;
+}
+.socialicons{
+    height: 40px;
+    width: 40px;
+}
+
+/* style for About Page */
+.profilepic{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    display: block;
+
+}
+
+h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.collection{
+    text-align: center;
+}
+
+/* style for blog pages */
+
+.blogprofilepic{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    display: block;
+    border-radius: 100%;
+}
+
+.sidebar li{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+  
+    
+}
+.sidebar a{
+    text-decoration: none;
+    
+}
+.sidebar{
+    float: right;
+    
+}
+.sidebar h3{
+    text-align: center;
+}
+/* Media querry */
+@media screen and (min-width: 600px){
+    #portfolio li{float: left;
+    width: 45%;
+    margin: 2.5%;
+}
